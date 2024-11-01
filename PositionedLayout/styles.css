@@ -1,0 +1,40 @@
+body,
+html{
+    height: 70%;
+}
+body{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+div {
+    background: rgb(203, 206, 207);
+    color: rgb(70, 69, 69);
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+  
+div .texto {
+  margin: 0 auto;
+  padding: 20px;
+}
+svg{
+  width: 17px;
+  margin-right: 8px;
+}
+span {
+    position: absolute;
+    top: -10px;
+    left: -8px;
+    border-radius: 10px;
+    background-color: #1e75a8;
+    color: white;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+  }
+  code{
+    background-color: rgb(167, 167, 167);
+  }
